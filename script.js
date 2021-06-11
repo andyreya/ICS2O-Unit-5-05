@@ -1,4 +1,4 @@
-let measurement = 0  /* creates variable 'measurement */
+let measurement = 0 /* creates variable 'measurement */
 
 document.getElementById('button').addEventListener('click', multiplication) /* makes action occur when button is clicked */
 
@@ -9,5 +9,5 @@ function multiplication () {
 
   measurement = measurement * 4 /* multiplies input for variable 'measurement' by 4 */
 
-  alert("The area of your square is " +  measurement) /* alerts results of the calculation, prints string 'The area of your square is ' with result of calculated value of the variable 'measurement */
-} 
+  alert('The area of your square is ' + measurement) /* alerts results of the calculation, prints string 'The area of your square is ' with result of calculated value of the variable 'measurement */
+}
